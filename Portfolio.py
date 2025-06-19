@@ -35,7 +35,7 @@ with open(resume_file, "rb") as pdf_file:
 profile_pic = Image.open(profile_pic)
 
 # --- HERO SECTION ---
-col1, col2 = st.columns(2, gap="small")
+col1, col2 = st.columns(3, gap="small")
 with col1:
     st.image(profile_pic, width=230)
 with col2:
@@ -47,13 +47,12 @@ with col2:
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
+with col3:
     st.write("📫", EMAIL)
+    cols = st.columns(len(SOCIAL_MEDIA))
+    for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
+        cols[index].write(f"[{platform}]({link})")
 
-# --- SOCIAL LINKS ---
-st.write('\n')
-cols = st.columns(len(SOCIAL_MEDIA))
-for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
-    cols[index].write(f"[{platform}]({link})")
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
