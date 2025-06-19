@@ -42,6 +42,9 @@ with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
 with col3:
+    st.write('\n')
+    st.write('\n')
+    st.write('\n')
     st.download_button(
         label=" 📄 Download Resume",
         data=PDFbyte,
