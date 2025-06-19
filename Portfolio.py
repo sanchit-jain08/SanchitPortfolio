@@ -82,8 +82,7 @@ with col2:
 
 # --- WORK HISTORY ---
 st.subheader("Work History")
-st.write("---")
-
+st.write('\n')
 st.write("🚧", "**Cloud Solutions Consultant | Fusion Practices Technologies Pvt. Ltd.**")
 st.write("Aug 2022 – May 2024")
 st.write(
@@ -118,6 +117,6 @@ st.write(
 
 # --- Projects & Accomplishments ---
 st.subheader("Projects & Accomplishments")
-st.write("---")
+st.write('\n')
 for project in PROJECTS:
     st.write(f"{project}")
