@@ -56,6 +56,7 @@ with col3:
         cols[index].write(f"[{platform}]({link})")
         st.write('\n')
 
+st.write('---')
 col1, col2= st.columns(2, gap="small")
 # --- EXPERIENCE & QUALIFICATIONS ---
 with col1:
@@ -80,6 +81,7 @@ with col2:
         """
         )
 
+st.write('---')
 # --- WORK HISTORY ---
 st.subheader("Work History")
 st.write('\n')
@@ -115,6 +117,7 @@ st.write(
 """
 )
 
+st.write('---')
 # --- Projects & Accomplishments ---
 st.subheader("Projects & Accomplishments")
 st.write('\n')
