@@ -81,7 +81,6 @@ with col2:
         )
 
 # --- WORK HISTORY ---
-st.write('\n')
 st.subheader("Work History")
 st.write("---")
 
@@ -118,7 +117,6 @@ st.write(
 )
 
 # --- Projects & Accomplishments ---
-st.write('\n')
 st.subheader("Projects & Accomplishments")
 st.write("---")
 for project in PROJECTS:
