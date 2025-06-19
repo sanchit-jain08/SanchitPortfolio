@@ -62,10 +62,10 @@ with col1:
     st.subheader("Experience & Qualifications")
     st.write(
         """
-        - ✔️ Experience in data-driven business analysis and cloud solution development
-        - ✔️ Strong command of Power BI, SQL, Azure Data Factory, and Python scripting
-        - ✔️ Delivered performance optimization, ETL automation, and reporting for enterprise clients
-        - ✔️ Skilled in building dashboards, streamlining data workflows, and cross-functional teamwork
+        - ✔️ Experience in data-driven business analysis and cloud solution development 
+        - ✔️ B.Tech in Information Technology and PGDM in Big Data Analytics from Goa Institute of Management
+        - ✔️ Strong command of Power BI, SQL, Azure Data Factory, and Python scripting  
+        - ✔️ Delivered performance optimization, ETL automation, and reporting for enterprise clients  
         """
     )
 # --- SKILLS ---
