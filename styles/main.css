@@ -64,3 +64,17 @@ input, textarea {
     color: white !important;
 }
 
+/* Expand Streamlit layout to full width */
+.block-container {
+    padding: 2rem 2rem 2rem 2rem;
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/* Optional: Reduce padding/margins for even more width */
+section.main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
