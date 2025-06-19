@@ -16,7 +16,7 @@ PAGE_TITLE = "Digital CV | Sanchit Jain"
 PAGE_ICON = ":wave:"
 NAME = "Sanchit Jain"
 DESCRIPTION = """
-Aspiring Data Analyst with hands-on experience in Power BI, SQL, and Azure, backed by a PGDM in Big Data Analytics. Proven track record in using data insights to drive business decisions, optimize workflows, and support strategic growth. Eager to contribute analytical skills to business development initiatives.
+Aspiring Data Analyst with hands-on experience in Power BI, SQL, and Azure, backed by a PGDM in Big Data Analytics. Eager to contribute analytical skills to business development initiatives.
 """
 EMAIL = "johndoe@email.com"
 SOCIAL_MEDIA = {
