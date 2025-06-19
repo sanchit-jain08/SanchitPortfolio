@@ -137,4 +137,4 @@ st.write('\n')
 st.subheader("Projects & Accomplishments")
 st.write("---")
 for project in PROJECTS:
-    st.write(f"[{project}]")
+    st.write(f"{project}")
