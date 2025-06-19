@@ -56,30 +56,31 @@ with col3:
         cols[index].write(f"[{platform}]({link})")
         st.write('\n')
 
-
+col1, col2= st.columns(2, gap="small")
 # --- EXPERIENCE & QUALIFICATIONS ---
-st.write('\n')
-st.subheader("Experience & Qualifications")
-st.write(
-    """
-- ✔️ Experience in data-driven business analysis and cloud solution development
-- ✔️ Strong command of Power BI, SQL, Azure Data Factory, and Python scripting
-- ✔️ Delivered performance optimization, ETL automation, and reporting for enterprise clients
-- ✔️ Skilled in building dashboards, streamlining data workflows, and cross-functional teamwork
-"""
-)
-
+with col1:
+    st.write('\n')
+    st.subheader("Experience & Qualifications")
+    st.write(
+        """
+        - ✔️ Experience in data-driven business analysis and cloud solution development
+        - ✔️ Strong command of Power BI, SQL, Azure Data Factory, and Python scripting
+        - ✔️ Delivered performance optimization, ETL automation, and reporting for enterprise clients
+        - ✔️ Skilled in building dashboards, streamlining data workflows, and cross-functional teamwork
+        """
+    )
 # --- SKILLS ---
-st.write('\n')
-st.subheader("Hard Skills")
-st.write(
-    """
-- 👨‍💻 Programming: Python, SQL, PL/SQL, R, C# .NET
-- 📊 Tools: Power BI, Tableau, Power Apps, Power Automate, Excel Macros
-- ☁️ Cloud & ETL: Azure Data Factory, Azure SQL, Oracle Apex
-- 🛠️ Analytics: ADF tests, Market Basket Analysis, KPI dashboards
-"""
-)
+with col2:
+    st.write('\n')
+    st.subheader("Hard Skills")
+    st.write(
+        """
+        - 👨‍💻 Programming: Python, SQL, PL/SQL, R, C# .NET
+        - 📊 Tools: Power BI, Tableau, Power Apps, Power Automate, Excel Macros
+        - ☁️ Cloud & ETL: Azure Data Factory, Azure SQL, Oracle Apex
+        - 🛠️ Analytics: ADF tests, Market Basket Analysis, KPI dashboards
+        """
+        )
 
 # --- WORK HISTORY ---
 st.write('\n')
