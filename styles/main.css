@@ -8,43 +8,6 @@ html, body {
     color: #ffffff !important;
 }
 
-/* Force background for main content area */
-section.main {
-    background-color: #002b36 !important;
-}
-
-/* Sidebar background */
-.css-1d391kg, .css-1v3fvcr {
-    background-color: #002b36 !important;
-}
-
-/* Text colors for readability */
-h1, h2, h3, h4, h5, h6,
-p, li, span, label, div, .stTextInput, .stDownloadButton, .stMarkdown {
-    color: #ffffff !important;
-}
-
-/* Input boxes */
-input, textarea {
-    background-color: #073642 !important;
-    color: #ffffff !important;
-    border: 1px solid #268bd2 !important;
-}
-
-/* Buttons */
-.stButton>button {
-    background-color: #005f73 !important;
-    color: #ffffff !important;
-    border: none;
-    border-radius: 8px;
-}
-
-/* Cards or containers (optional) */
-.css-1ht1j8u, .css-18ni7ap {
-    background-color: #073642 !important;
-    border-radius: 10px;
-}
-
 a {
     text-decoration: none;
     color: white !important;
