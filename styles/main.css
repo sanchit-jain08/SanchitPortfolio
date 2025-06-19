@@ -2,7 +2,10 @@
 
 
 * {font-family: 'Readex Pro';}
-
+html, body, [class*="css"] {
+    background-color: #002b36 !important;
+    color: #ffffff !important;
+}
 
 a {
     text-decoration: none;
