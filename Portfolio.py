@@ -63,9 +63,9 @@ with col1:
     st.write(
         """
         - ✔️ Experience in data-driven business analysis and cloud solution development 
-        - ✔️ B.Tech in Information Technology and PGDM in Big Data Analytics from Goa Institute of Management
-        - ✔️ Strong command of Power BI, SQL, Azure Data Factory, and Python scripting  
-        - ✔️ Delivered performance optimization, ETL automation, and reporting for enterprise clients  
+        - ✔️ B.Tech in IT & PGDM in Big Data Analytics from Goa Institute of Management
+        - ✔️ Strong command of Power BI, SQL, Azure Data Factory, & Python 
+        - ✔️ Delivered performance optimization, ETL automation, & reports  
         """
     )
 # --- SKILLS ---
