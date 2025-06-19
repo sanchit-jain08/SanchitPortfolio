@@ -35,7 +35,7 @@ with open(resume_file, "rb") as pdf_file:
 profile_pic = Image.open(profile_pic)
 
 # --- HERO SECTION ---
-col1, col2 = st.columns(2, gap="small")
+col1, col2, col3 = st.columns(3, gap="large")
 with col1:
     st.image(profile_pic, use_container_width =True)
 with col2:
@@ -44,6 +44,7 @@ with col2:
     st.write('\n')
     st.write('\n')
     st.write('\n')
+with col3:
     st.download_button(
         label=" 📄 Download Resume",
         data=PDFbyte,
