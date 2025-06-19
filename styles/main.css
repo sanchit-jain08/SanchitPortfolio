@@ -2,11 +2,6 @@
 
 
 * {font-family: 'Readex Pro';}
-/* Force dark background across Streamlit */
-html, body {
-    background-color: #002b36 !important;
-    color: #ffffff !important;
-}
 
 a {
     text-decoration: none;
