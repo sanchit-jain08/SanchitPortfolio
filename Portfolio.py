@@ -16,7 +16,6 @@ Aspiring Data Analyst with hands-on experience in Power BI, SQL, and Azure, back
 EMAIL = "sanchit.jain24b@gim.ac.in"
 SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/sanchit-jain-63599217a/",
-    "GitHub": "https://github.com/sanchit-jain08/",
 }
 PROJECTS = {
     "🏆 Price Transmission Analysis – Utilized Python and Power BI to analyze 5 years of commodity market data, applying ADF tests to uncover seasonal pricing and transmission patterns across Indian states.",
@@ -41,10 +40,10 @@ with col1:
 with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
-    st.write('\n')
-    st.write('\n')
-    st.write('\n')
 with col3:
+    st.write('\n')
+    st.write('\n')
+    st.write('\n')
     st.download_button(
         label=" 📄 Download Resume",
         data=PDFbyte,
