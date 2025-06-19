@@ -20,16 +20,13 @@ Aspiring Data Analyst with hands-on experience in Power BI, SQL, and Azure, back
 """
 EMAIL = "johndoe@email.com"
 SOCIAL_MEDIA = {
-    "YouTube": "https://youtube.com/c/codingisfun",
-    "LinkedIn": "https://linkedin.com",
-    "GitHub": "https://github.com",
-    "Twitter": "https://twitter.com",
+    "LinkedIn": "https://www.linkedin.com/in/sanchit-jain-63599217a/",
+    "GitHub": "https://github.com/sanchit-jain08/",
 }
 PROJECTS = {
-    "🏆 Sales Dashboard - Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320",
-    "🏆 Income and Expense Tracker - Web app with NoSQL database": "https://youtu.be/3egaMfE9388",
-    "🏆 Desktop Application - Excel2CSV converter with user settings & menubar": "https://youtu.be/LzCfNanQ_9c",
-    "🏆 MyToolBelt - Custom MS Excel add-in to combine Python & Excel": "https://pythonandvba.com/mytoolbelt/",
+    "🏆 Price Transmission Analysis - Utilized Python and Power BI to analyze 5 years of market data for key commodities, identifying seasonal price trends and transmission dynamics using econometric tests like ADF.",
+    "🏆 Market Basket Analysis - Developed a Python-based Market Basket Analysis using the apriori algorithm to generate point-of-sale suggestions and enhance predictive accuracy.",
+    "🏆 Churn Analysis & Customer Diagnostics - Designed Power BI KPI dashboards using 5000+ data points to visualize customer trends, reduce churn, and support targeted business strategies."
 }
 
 
