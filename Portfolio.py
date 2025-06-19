@@ -41,17 +41,18 @@ with col1:
 with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
+with col3:
     st.download_button(
         label=" 📄 Download Resume",
         data=PDFbyte,
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
-with col3:
     st.write("📫", EMAIL)
     cols = st.columns(len(SOCIAL_MEDIA))
     for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
         cols[index].write(f"[{platform}]({link})")
+        st.write('\n')
 
 
 # --- EXPERIENCE & QUALIFICATIONS ---
