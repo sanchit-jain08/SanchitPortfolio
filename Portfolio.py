@@ -43,7 +43,6 @@ with col2:
 with col3:
     st.write('\n')
     st.write('\n')
-    st.write('\n')
     st.download_button(
         label=" 📄 Download Resume",
         data=PDFbyte,
