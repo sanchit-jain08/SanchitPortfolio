@@ -1,8 +1,6 @@
 from pathlib import Path
-
 import streamlit as st
 from PIL import Image
-
 
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
@@ -10,42 +8,38 @@ css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "CV.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.PNG"
 
-
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | Sanchit Jain"
-PAGE_ICON = ":wave:"
+PAGE_ICON = ":bar_chart:"
 NAME = "Sanchit Jain"
 DESCRIPTION = """
-Aspiring Data Analyst with hands-on experience in Power BI, SQL, and Azure, backed by a PGDM in Big Data Analytics. Eager to contribute analytical skills to business development initiatives.
+Aspiring Data Analyst with hands-on experience in Power BI, SQL, Azure, and Python, backed by a PGDM in Big Data Analytics. Eager to contribute data-driven strategies for business development and process optimization.
 """
-EMAIL = "johndoe@email.com"
+EMAIL = "sanchit.jain24b@gim.ac.in"
 SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/sanchit-jain-63599217a/",
     "GitHub": "https://github.com/sanchit-jain08/",
 }
 PROJECTS = {
-    "🏆 Price Transmission Analysis - Utilized Python and Power BI to analyze 5 years of market data for key commodities, identifying seasonal price trends and transmission dynamics using econometric tests like ADF.",
-    "🏆 Market Basket Analysis - Developed a Python-based Market Basket Analysis using the apriori algorithm to generate point-of-sale suggestions and enhance predictive accuracy.",
-    "🏆 Churn Analysis & Customer Diagnostics - Designed Power BI KPI dashboards using 5000+ data points to visualize customer trends, reduce churn, and support targeted business strategies."
+    "🏆 Price Transmission Analysis – Utilized Python and Power BI to analyze 5 years of commodity market data, applying ADF tests to uncover seasonal pricing and transmission patterns across Indian states.",
+    "🏆 Market Basket Analysis – Built a Python-based solution using the Apriori algorithm for real-world POS suggestions, boosting recommendation accuracy through custom datasets and advanced analytics.",
+    "🏆 Churn Analysis & Customer Diagnostics – Created Power BI dashboards with 5000+ data points to visualize key trends, reduce churn, and guide targeted business strategies using PwC & Forage datasets."
 }
 
-
+# --- PAGE CONFIG ---
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
-
-# --- LOAD CSS, PDF & PROFIL PIC ---
+# --- LOAD CSS, PDF & PROFILE PIC ---
 with open(css_file) as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 profile_pic = Image.open(profile_pic)
 
-
 # --- HERO SECTION ---
 col1, col2 = st.columns(2, gap="small")
 with col1:
     st.image(profile_pic, width=230)
-
 with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
@@ -57,80 +51,72 @@ with col2:
     )
     st.write("📫", EMAIL)
 
-
 # --- SOCIAL LINKS ---
 st.write('\n')
 cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
 
-
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
-st.subheader("Experience & Qulifications")
+st.subheader("Experience & Qualifications")
 st.write(
     """
-- ✔️ 7 Years expereince extracting actionable insights from data
-- ✔️ Strong hands on experience and knowledge in Python and Excel
-- ✔️ Good understanding of statistical principles and their respective applications
-- ✔️ Excellent team-player and displaying strong sense of initiative on tasks
+- ✔️ Experience in data-driven business analysis and cloud solution development
+- ✔️ Strong command of Power BI, SQL, Azure Data Factory, and Python scripting
+- ✔️ Delivered performance optimization, ETL automation, and reporting for enterprise clients
+- ✔️ Skilled in building dashboards, streamlining data workflows, and cross-functional teamwork
 """
 )
-
 
 # --- SKILLS ---
 st.write('\n')
 st.subheader("Hard Skills")
 st.write(
     """
-- 👩‍💻 Programming: Python (Scikit-learn, Pandas), SQL, VBA
-- 📊 Data Visulization: PowerBi, MS Excel, Plotly
-- 📚 Modeling: Logistic regression, linear regression, decition trees
-- 🗄️ Databases: Postgres, MongoDB, MySQL
+- 👨‍💻 Programming: Python, SQL, PL/SQL, R, C# .NET
+- 📊 Tools: Power BI, Tableau, Power Apps, Power Automate, Excel Macros
+- ☁️ Cloud & ETL: Azure Data Factory, Azure SQL, Oracle Apex
+- 🛠️ Analytics: ADF tests, Market Basket Analysis, KPI dashboards
 """
 )
-
 
 # --- WORK HISTORY ---
 st.write('\n')
 st.subheader("Work History")
 st.write("---")
 
-# --- JOB 1
-st.write("🚧", "**Senior Data Analyst | Ross Industries**")
-st.write("02/2020 - Present")
+st.write("🚧", "**Cloud Solutions Consultant | Fusion Practices Technologies Pvt. Ltd.**")
+st.write("Aug 2022 – May 2024")
 st.write(
     """
-- ► Used PowerBI and SQL to redeﬁne and track KPIs surrounding marketing initiatives, and supplied recommendations to boost landing page conversion rate by 38%
-- ► Led a team of 4 analysts to brainstorm potential marketing and sales improvements, and implemented A/B tests to generate 15% more client leads
-- ► Redesigned data model through iterations that improved predictions by 12%
+- ► Developed Power BI reports and DAX functions across 5 enterprise apps to streamline analysis
+- ► Improved SQL database performance, reducing query and data retrieval times by 20% and 15%
+- ► Built and deployed 10+ APIs using C# .NET to enhance cross-platform data integration
+- ► Automated ETL processes with Azure Data Factory, cutting manual workload by 50%
+- ► Created cloud-native Power Apps solutions improving workflow efficiency by 20%
 """
 )
 
-# --- JOB 2
-st.write('\n')
-st.write("🚧", "**Data Analyst | Liberty Mutual Insurance**")
-st.write("01/2018 - 02/2022")
+st.write("🚧", "**Oracle Technical Intern | Fusion Practices Technologies Pvt. Ltd.**")
+st.write("Feb 2022 – Jul 2022")
 st.write(
     """
-- ► Built data models and maps to generate meaningful insights from customer data, boosting successful sales eﬀorts by 12%
-- ► Modeled targets likely to renew, and presented analysis to leadership, which led to a YoY revenue increase of $300K
-- ► Compiled, studied, and inferred large amounts of data, modeling information to drive auto policy pricing
+- ► Developed Oracle Apex apps with secure REST API interactions
+- ► Led cross-functional collaboration for UK insurance client project delivery
+- ► Trained users and stakeholders via MS Teams to improve platform adoption
 """
 )
 
-# --- JOB 3
-st.write('\n')
-st.write("🚧", "**Data Analyst | Chegg**")
-st.write("04/2015 - 01/2018")
+st.write("🚧", "**Data Engineering Intern | Celebal Technologies Pvt. Ltd.**")
+st.write("Aug 2021 – Jan 2022")
 st.write(
     """
-- ► Devised KPIs using SQL across company website in collaboration with cross-functional teams to achieve a 120% jump in organic traﬃc
-- ► Analyzed, documented, and reported user survey results to improve customer communication processes by 18%
-- ► Collaborated with analyst team to oversee end-to-end process surrounding customers' return data
+- ► Migrated data from 5+ enterprises to Azure SQL with custom automation pipelines
+- ► Built 10+ Python scripts to automate tasks, boosting workflow speed and accuracy
+- ► Documented key insights and created reports on data transformation workflows
 """
 )
-
 
 # --- Projects & Accomplishments ---
 st.write('\n')
