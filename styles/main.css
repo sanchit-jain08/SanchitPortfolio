@@ -24,3 +24,43 @@ hr {
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 header {visibility: hidden;}
+
+/* --- Dark Background and Text Colors --- */
+html, body, section.main, .block-container {
+    background-color: #002b36 !important;
+    color: #ffffff !important;
+}
+
+/* Sidebar background */
+[data-testid="stSidebar"] {
+    background-color: #002b36 !important;
+}
+
+/* Force text color for headings and labels */
+h1, h2, h3, h4, h5, h6,
+p, li, span, label, div, .stTextInput, .stDownloadButton, .stMarkdown {
+    color: #ffffff !important;
+}
+
+/* Inputs and text areas */
+input, textarea {
+    background-color: #073642 !important;
+    color: #ffffff !important;
+    border: 1px solid #268bd2 !important;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #005f73 !important;
+    color: white !important;
+    border: none;
+    border-radius: 6px;
+}
+
+/* Custom cards or containers (optional dark panels) */
+.css-1ht1j8u, .css-18ni7ap, .st-cb {
+    background-color: #073642 !important;
+    border-radius: 10px;
+    color: white !important;
+}
+
