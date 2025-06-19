@@ -59,7 +59,6 @@ with col3:
 col1, col2= st.columns(2, gap="small")
 # --- EXPERIENCE & QUALIFICATIONS ---
 with col1:
-    st.write('\n')
     st.subheader("Experience & Qualifications")
     st.write(
         """
@@ -71,7 +70,6 @@ with col1:
     )
 # --- SKILLS ---
 with col2:
-    st.write('\n')
     st.subheader("Hard Skills")
     st.write(
         """
