@@ -89,9 +89,12 @@ with col2:
         """
         )
 
-st.write('---')
-
-st.markdown("<br>", unsafe_allow_html=True)
+st.markdown(
+    """
+    <div style="height:20px;background-color:white;"></div>
+    """,
+    unsafe_allow_html=True
+)
 # --- WORK HISTORY ---
 st.subheader("Work History")
 st.write('\n')
@@ -127,8 +130,12 @@ st.write(
 """
 )
 
-st.markdown("<br>", unsafe_allow_html=True)
-st.write('---')
+st.markdown(
+    """
+    <div style="height:20px;background-color:white;"></div>
+    """,
+    unsafe_allow_html=True
+)
 # --- Projects & Accomplishments ---
 st.subheader("Projects & Accomplishments")
 st.write('\n')
