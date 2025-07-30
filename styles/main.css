@@ -51,8 +51,8 @@ input, textarea {
 
 /* Buttons */
 .stButton > button {
-    background-color: #005f73 !important;
-    color: white !important;
+    background-color: red !important;
+    color: red !important;
     border: none;
     border-radius: 6px;
 }
