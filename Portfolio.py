@@ -82,10 +82,10 @@ with col2:
     st.subheader("Hard Skills")
     st.write(
         """
-        - 👨‍💻 Programming: Python, SQL, PL/SQL, R, C# .NET
-        - 📊 Tools: Power BI, Tableau, Power Apps, Power Automate, Excel Macros
-        - ☁️ Cloud & ETL: Azure Data Factory, Azure SQL, Oracle Apex
-        - 🛠️ Analytics: ADF tests, Market Basket Analysis, KPI dashboards
+        - ► Programming: Python, SQL, PL/SQL, R, C# .NET
+        - ► Tools: Power BI, Tableau, Power Apps, Power Automate, Excel Macros
+        - ► Cloud & ETL: Azure Data Factory, Azure SQL, Oracle Apex
+        - ► Analytics: ADF tests, Market Basket Analysis, KPI dashboards
         """
         )
 
@@ -93,7 +93,7 @@ st.write('---')
 # --- WORK HISTORY ---
 st.subheader("Work History")
 st.write('\n')
-st.write("🚧", "**Cloud Solutions Consultant | Fusion Practices Technologies Pvt. Ltd.**")
+st.write("", "**Cloud Solutions Consultant | Fusion Practices Technologies Pvt. Ltd.**")
 st.write("Aug 2022 – May 2024")
 st.write(
     """
@@ -105,7 +105,7 @@ st.write(
 """
 )
 
-st.write("🚧", "**Oracle Technical Intern | Fusion Practices Technologies Pvt. Ltd.**")
+st.write("", "**Oracle Technical Intern | Fusion Practices Technologies Pvt. Ltd.**")
 st.write("Feb 2022 – Jul 2022")
 st.write(
     """
@@ -115,7 +115,7 @@ st.write(
 """
 )
 
-st.write("🚧", "**Data Engineering Intern | Celebal Technologies Pvt. Ltd.**")
+st.write("", "**Data Engineering Intern | Celebal Technologies Pvt. Ltd.**")
 st.write("Aug 2021 – Jan 2022")
 st.write(
     """
