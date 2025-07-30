@@ -43,7 +43,7 @@ p, li, span, label, div, .stTextInput, .stMarkdown {
 }
 
 .stDownloadButton{
-    color : #ff4b4b
+    color : #ff4b4b;
 }
 
 /* Inputs and text areas */
