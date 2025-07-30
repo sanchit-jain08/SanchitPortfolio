@@ -39,8 +39,7 @@ html, body, section.main, .block-container {
 /* Force text color for headings and labels */
 h1, h2, h3, h4, h5, h6,
 p, li, span, label, div, .stTextInput, .stMarkdown {
-    background-color: #ff4b4b !important;
-    color : #fff;
+    color: #ff4b4b ;
 }
 
 .stDownloadButton{
