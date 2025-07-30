@@ -18,10 +18,19 @@ SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/sanchit-jain-63599217a/",
 }
 PROJECTS = {
-    "🏆 Price Transmission Analysis – Utilized Python and Power BI to analyze 5 years of commodity market data, applying ADF tests to uncover seasonal pricing and transmission patterns across Indian states.",
-    "🏆 Market Basket Analysis – Built a Python-based solution using the Apriori algorithm for real-world POS suggestions, boosting recommendation accuracy through custom datasets and advanced analytics.",
-    "🏆 Churn Analysis & Customer Diagnostics – Created Power BI dashboards with 5000+ data points to visualize key trends, reduce churn, and guide targeted business strategies using PwC & Forage datasets."
+    "📈 Price Transmission Analysis": "[Utilized Python and Power BI to analyze 5 years of wholesale and retail commodity prices](https://www.linkedin.com/in/sanchit-jain-63599217a/), applying ADF tests to evaluate seasonal pricing and transmission trends of onion, tomato, and potato across Indian states.",
+    
+    "🛒 Market Basket Analysis": "[Built a predictive recommendation engine](https://www.linkedin.com/in/sanchit-jain-63599217a/) using the Apriori algorithm on custom retail datasets, improving POS-based suggestions with Python, NumPy, and Pandas.",
+    
+    "🔁 Customer Churn Rate & Diagnostics": "[Designed 3 Power BI KPI dashboards](https://www.linkedin.com/in/sanchit-jain-63599217a/) on PwC datasets with 5000+ data points to visualize churn risks, customer satisfaction, and diversity metrics for strategic decisions.",
+    
+    "📊 Nifty 50 Analyzer": "[Created a SARIMA-powered forecasting dashboard](https://www.linkedin.com/in/sanchit-jain-63599217a/) using Python, DAX, and Yahoo Finance data to predict trends and enhance trading decisions through RSI, SMA, EMA, and MACD indicators.",
+    
+    "🤖 AI Interview Coach": "[Developed a web-based mock interview platform](https://www.linkedin.com/in/sanchit-jain-63599217a/) using Gemini Pro 2.5 for question generation and OpenAI Whisper for real-time speech-to-text analysis, with NLP-based scoring across 5 skill metrics.",
+    
+    "🧭 Career Pathing with L&T": "[Analyzed 500+ employee records](https://www.linkedin.com/in/sanchit-jain-63599217a/) and 150+ exit interviews to design skill matrices and predictive retention tools; developed a Streamlit web app for role-based progression simulation."
 }
+
 
 # --- PAGE CONFIG ---
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
@@ -120,5 +129,5 @@ st.write('---')
 # --- Projects & Accomplishments ---
 st.subheader("Projects & Accomplishments")
 st.write('\n')
-for project in PROJECTS:
-    st.write(f"{project}")
+for project, details in PROJECTS.items():
+    st.write(f"{project}: {details}")
