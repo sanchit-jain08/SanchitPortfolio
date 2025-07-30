@@ -26,7 +26,7 @@ footer {visibility: hidden;}
 header {visibility: hidden;}
 
 /* --- Dark Background and Text Colors --- */
-html, body, section.main, .block-container {
+html, body, section.main, .block-container{
     background-color: #002b36 !important;
     color: #ffffff !important;
 }
@@ -38,7 +38,7 @@ html, body, section.main, .block-container {
 
 /* Force text color for headings and labels */
 h1, h2, h3, h4, h5, h6,
-p, li, span, label, div, .stTextInput, .stMarkdown {
+p, li, span, label, div, .stTextInput, .stDownloadButton, .stMarkdown {
     color: #fff ;
 }
 
@@ -52,7 +52,7 @@ input, textarea {
 /* Buttons */
 .stButton > button {
     background-color: #005f73 !important;
-    color: white !important;
+    color: 005f73 !important;
     border: none;
     border-radius: 6px;
 }
@@ -76,6 +76,4 @@ section.main {
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.stDownloadButton{
-    color : #ff4b4b;
-}
+
