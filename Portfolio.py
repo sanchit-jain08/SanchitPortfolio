@@ -89,13 +89,16 @@ with col2:
         """
         )
 
+# --- WORK HISTORY ---
+
+st.write("---")
 st.markdown(
     """
-    <div style="height:20px;background-color:white;"></div>
+    <div style="height:2px;background-color:white;"></div>
     """,
     unsafe_allow_html=True
 )
-# --- WORK HISTORY ---
+st.write("---")
 st.subheader("Work History")
 st.write('\n')
 st.write("", "**Cloud Solutions Consultant | Fusion Practices Technologies Pvt. Ltd.**")
@@ -130,13 +133,16 @@ st.write(
 """
 )
 
+# --- Projects & Accomplishments ---
+st.write("---")
 st.markdown(
     """
-    <div style="height:20px;background-color:white;"></div>
+    <div style="height:2px;background-color:white;"></div>
     """,
     unsafe_allow_html=True
 )
-# --- Projects & Accomplishments ---
+
+st.write("---")
 st.subheader("Projects & Accomplishments")
 st.write('\n')
 for project, details in PROJECTS.items():
