@@ -49,14 +49,6 @@ input, textarea {
     border: 1px solid #268bd2 !important;
 }
 
-/* Buttons */
-.stButton > button {
-    background-color: red !important;
-    color: red !important;
-    border: none;
-    border-radius: 6px;
-}
-
 /* Custom cards or containers (optional dark panels) */
 .css-1ht1j8u, .css-18ni7ap, .st-cb {
     background-color: #073642 !important;
