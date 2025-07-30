@@ -112,7 +112,7 @@ st.write(
 - ► Created cloud-native Power Apps solutions improving workflow efficiency by 20%
 """
 )
-
+st.write('\n')
 st.write("", "**HR Analyst | Larsen & Toubro Ltd.**")
 st.write("April 2025 – June 2025")
 st.write(
