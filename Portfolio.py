@@ -90,6 +90,8 @@ with col2:
         )
 
 st.write('---')
+
+st.markdown("<br>", unsafe_allow_html=True)
 # --- WORK HISTORY ---
 st.subheader("Work History")
 st.write('\n')
@@ -125,6 +127,7 @@ st.write(
 """
 )
 
+st.markdown("<br>", unsafe_allow_html=True)
 st.write('---')
 # --- Projects & Accomplishments ---
 st.subheader("Projects & Accomplishments")
