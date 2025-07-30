@@ -26,7 +26,7 @@ PROJECTS = {
     
     "► [Market Basket Analysis](https://www.linkedin.com/posts/sanchit-jain-63599217a_market-basket-analysis-activity-7244404956206653440-a0e8?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqA9gkBkRrKjlNu50wYCT_z7PH51TwLAJc)": "Built a predictive recommendation engine using the Apriori algorithm on custom retail datasets, improving POS-based suggestions with Python, NumPy, and Pandas.",
     
-    "► Customer Churn Rate & Diagnostics": "Designed 3 Power BI KPI dashboards on PwC datasets with 5000+ data points to visualize churn risks, customer satisfaction, and diversity metrics for strategic decisions." 
+    "► [Customer Churn Rate & Diagnostics](https://drive.google.com/file/d/1ulERYAa0QoGkx1uAiBMYKdxF_4XCBPaX/view?usp=sharing)": "Designed 3 Power BI KPI dashboards on PwC datasets with 5000+ data points to visualize churn risks, customer satisfaction, and diversity metrics for strategic decisions." 
     }
 # --- PAGE CONFIG ---
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
