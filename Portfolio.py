@@ -139,6 +139,12 @@ st.write(
 
 # --- Projects & Accomplishments ---
 st.write("---")
+st.markdown(
+    """
+    <div style="height:2px;background-color:white;padding:0"></div>
+    """,
+    unsafe_allow_html=True
+)
 st.subheader("Projects & Accomplishments")
 st.markdown(
     """
