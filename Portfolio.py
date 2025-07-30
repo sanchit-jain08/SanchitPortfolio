@@ -87,7 +87,6 @@ with col2:
         )
 
 # --- WORK HISTORY ---
-st.write("---")
 st.markdown(
     """
     <div style="height:2px;background-color:white;padding:0"></div>
@@ -113,8 +112,7 @@ key turnover insights for strategic planning
 - ► Developed mock Python Streamlit web app for career pathing & proposed advanced predictive career solutions
 """
 )
-
-st.write('\n')
+st.write("---")
 st.write("", "**Cloud Solutions Consultant | Fusion Practices Technologies Pvt. Ltd.**")
 st.write("Aug 2022 – May 2024")
 st.write(
@@ -126,7 +124,7 @@ st.write(
 - ► Created cloud-native Power Apps solutions improving workflow efficiency by 20%
 """
 )
-
+st.write("---")
 st.write("", "**Oracle Technical Intern | Fusion Practices Technologies Pvt. Ltd.**")
 st.write("Feb 2022 – Jul 2022")
 st.write(
@@ -136,7 +134,7 @@ st.write(
 - ► Trained users and stakeholders via MS Teams to improve platform adoption
 """
 )
-
+st.write("---")
 st.write("", "**Data Engineering Intern | Celebal Technologies Pvt. Ltd.**")
 st.write("Aug 2021 – Jan 2022")
 st.write(
@@ -148,7 +146,7 @@ st.write(
 )
 
 # --- Projects & Accomplishments ---
-st.write("---")
+
 st.markdown(
     """
     <div style="height:2px;background-color:white;padding:0"></div>
