@@ -113,6 +113,18 @@ st.write(
 """
 )
 
+st.write("", "**HR Analyst | Larsen & Toubro Ltd.**")
+st.write("April 2025 – June 2025")
+st.write(
+    """
+- ► Analyzed 150+ exit interviews using Python to extract sentiment & clustered 500+ employee data points, revealing 
+key turnover insights for strategic planning & insights
+- ► Explored global level career pathing tools like Phenom, TalentGuard etc. to benchmark KPIs & crafting role-based 
+skill matrix that will result in enhanced employee engagement & retention
+- ► Developed mock Python Streamlit web app for career pathing & proposed advanced predictive career solutions
+"""
+)
+
 st.write("", "**Oracle Technical Intern | Fusion Practices Technologies Pvt. Ltd.**")
 st.write("Feb 2022 – Jul 2022")
 st.write(
