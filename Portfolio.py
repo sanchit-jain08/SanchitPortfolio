@@ -18,15 +18,15 @@ SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/sanchit-jain-63599217a/",
 }
 PROJECTS = {
-    "► [Price Transmission Analysis](https://www.linkedin.com/in/sanchit-jain-63599217a/)": "Utilized Python and Power BI to analyze 5 years of wholesale and retail commodity prices, applying ADF tests to evaluate seasonal pricing and transmission trends of onion, tomato, and potato across Indian states.",
+    "► Price Transmission Analysis": "Utilized Python and Power BI to analyze 5 years of wholesale and retail commodity prices, applying ADF tests to evaluate seasonal pricing and transmission trends of onion, tomato, and potato across Indian states.",
     
-    "► [Market Basket Analysis](https://www.linkedin.com/in/sanchit-jain-63599217a/)": "Built a predictive recommendation engine using the Apriori algorithm on custom retail datasets, improving POS-based suggestions with Python, NumPy, and Pandas.",
+    "► [Market Basket Analysis](https://www.linkedin.com/posts/sanchit-jain-63599217a_market-basket-analysis-activity-7244404956206653440-a0e8?utm_source=share&utm_medium=member_desktop&rcm=ACoAACqA9gkBkRrKjlNu50wYCT_z7PH51TwLAJc)": "Built a predictive recommendation engine using the Apriori algorithm on custom retail datasets, improving POS-based suggestions with Python, NumPy, and Pandas.",
     
-    "► [Customer Churn Rate & Diagnostics](https://www.linkedin.com/in/sanchit-jain-63599217a/)": "Designed 3 Power BI KPI dashboards on PwC datasets with 5000+ data points to visualize churn risks, customer satisfaction, and diversity metrics for strategic decisions.",
+    "► Customer Churn Rate & Diagnostics": "Designed 3 Power BI KPI dashboards on PwC datasets with 5000+ data points to visualize churn risks, customer satisfaction, and diversity metrics for strategic decisions.",
     
-    "► [Nifty 50 Analyzer](https://www.linkedin.com/in/sanchit-jain-63599217a/)": "Created a SARIMA-powered forecasting dashboard using Python, DAX, and Yahoo Finance data to predict trends and enhance trading decisions through RSI, SMA, EMA, and MACD indicators.",
+    "► [Nifty 50 Analyzer](https://lnkd.in/gdC-6Aem)": "Created a SARIMA-powered forecasting dashboard using Python, DAX, and Yahoo Finance data to predict trends and enhance trading decisions through RSI, SMA, EMA, and MACD indicators.",
     
-    "► [AI Interview Coach](https://www.linkedin.com/in/sanchit-jain-63599217a/)": "Developed a web-based mock interview platform using Gemini Pro 2.5 for question generation and OpenAI Whisper for real-time speech-to-text analysis, with NLP-based scoring across 5 skill metrics."
+    "► AI Interview Coach": "Developed a web-based mock interview platform using Gemini Pro 2.5 for question generation and OpenAI Whisper for real-time speech-to-text analysis, with NLP-based scoring across 5 skill metrics."
 }
 # --- PAGE CONFIG ---
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
