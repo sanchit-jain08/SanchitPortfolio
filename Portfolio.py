@@ -91,6 +91,12 @@ with col2:
 
 # --- WORK HISTORY ---
 st.write("---")
+st.markdown(
+    """
+    <div style="height:2px;background-color:white;"></div>
+    """,
+    unsafe_allow_html=True
+)
 st.subheader("Work History")
 st.markdown(
     """
