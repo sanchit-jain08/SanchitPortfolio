@@ -71,7 +71,7 @@ with col1:
         - ✔️ B.Tech in Information Technology & PGDM in Big Data Analytics
         - ✔️ Strong command of Power BI, SQL, Azure Data Factory, & Python 
         - ✔️ Delivered performance optimization, ETL automation, & reports  
-        - ✔️ Certificted with Microsoft in Azure Fundamentals and Azure Data Fundamentals
+        - ✔️ Certificted with Microsoft in Azure Fundamentals & Data Fundamentals
         """
     )
 # --- SKILLS ---
