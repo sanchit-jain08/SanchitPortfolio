@@ -42,10 +42,6 @@ p, li, span, label, div, .stTextInput, .stMarkdown {
     color: #fff ;
 }
 
-.stDownloadButton{
-    color : #ff4b4b;
-}
-
 /* Inputs and text areas */
 input, textarea {
     background-color: #073642 !important;
@@ -79,4 +75,7 @@ input, textarea {
 section.main {
     padding-left: 1rem;
     padding-right: 1rem;
+}
+.stDownloadButton{
+    color : #ff4b4b;
 }
