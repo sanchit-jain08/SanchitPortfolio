@@ -93,7 +93,7 @@ with col2:
 st.write("---")
 st.markdown(
     """
-    <div style="height:2px;background-color:white;margin:0"></div>
+    <div style="height:2px;background-color:white;padding:0"></div>
     """,
     unsafe_allow_html=True
 )
