@@ -87,12 +87,7 @@ with col2:
         )
 
 # --- WORK HISTORY ---
-st.markdown(
-    """
-    <div style="height:2px;background-color:white;padding:0"></div>
-    """,
-    unsafe_allow_html=True
-)
+st.write('---')
 st.subheader("Work History")
 st.markdown(
     """
@@ -146,13 +141,7 @@ st.write(
 )
 
 # --- Projects & Accomplishments ---
-
-st.markdown(
-    """
-    <div style="height:2px;background-color:white;padding:0"></div>
-    """,
-    unsafe_allow_html=True
-)
+st.write('---')
 st.subheader("Projects & Accomplishments")
 st.markdown(
     """
