@@ -101,18 +101,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 st.write('\n')
-st.write("", "**Cloud Solutions Consultant | Fusion Practices Technologies Pvt. Ltd.**")
-st.write("Aug 2022 – May 2024")
-st.write(
-    """
-- ► Developed Power BI reports and DAX functions across 5 enterprise apps to streamline analysis
-- ► Improved SQL database performance, reducing query and data retrieval times by 20% and 15%
-- ► Built and deployed 10+ APIs using C# .NET to enhance cross-platform data integration
-- ► Automated ETL processes with Azure Data Factory, cutting manual workload by 50%
-- ► Created cloud-native Power Apps solutions improving workflow efficiency by 20%
-"""
-)
-st.write('\n')
 st.write("", "**HR Analyst | Larsen & Toubro Ltd.**")
 st.write("April 2025 – June 2025")
 st.write(
@@ -122,6 +110,19 @@ key turnover insights for strategic planning & insights
 - ► Explored global level career pathing tools like Phenom, TalentGuard etc. to benchmark KPIs & crafting role-based 
 skill matrix that will result in enhanced employee engagement & retention
 - ► Developed mock Python Streamlit web app for career pathing & proposed advanced predictive career solutions
+"""
+)
+
+st.write('\n')
+st.write("", "**Cloud Solutions Consultant | Fusion Practices Technologies Pvt. Ltd.**")
+st.write("Aug 2022 – May 2024")
+st.write(
+    """
+- ► Developed Power BI reports and DAX functions across 5 enterprise apps to streamline analysis
+- ► Improved SQL database performance, reducing query and data retrieval times by 20% and 15%
+- ► Built and deployed 10+ APIs using C# .NET to enhance cross-platform data integration
+- ► Automated ETL processes with Azure Data Factory, cutting manual workload by 50%
+- ► Created cloud-native Power Apps solutions improving workflow efficiency by 20%
 """
 )
 
