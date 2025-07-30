@@ -48,13 +48,6 @@ with col2:
 with col3:
     st.write('\n')
     st.write('\n')
-    st.markdown("""
-        <style>
-            div.stButton > button {
-            color: #002b36 !important;
-            }
-        </style>
-    """, unsafe_allow_html=True)
     st.download_button(
         label=" 📄 Download Resume",
         data=PDFbyte,
