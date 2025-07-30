@@ -108,8 +108,8 @@ st.write(
     """
 - ► Analyzed 150+ exit interviews to extract sentiment & clustered 500+ employee data points, revealing 
 key turnover insights for strategic planning
-- ► Explored global career pathing tools like Phenom, TalentGuard etc. to benchmark KPIs & crafting role-based 
-skill matrix for enhanced employee engagement & retention
+- ► Explored global career pathing tools like Phenom, TalentGuard etc. to benchmark KPIs 
+- ► crafted role-based skill matrix for enhanced employee engagement & retention
 - ► Developed mock Python Streamlit web app for career pathing & proposed advanced predictive career solutions
 """
 )
