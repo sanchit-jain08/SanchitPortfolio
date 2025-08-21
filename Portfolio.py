@@ -16,6 +16,7 @@ Aspiring Data Analyst with hands-on experience in Power BI, SQL, and Azure, back
 EMAIL = "sanchit.jain24b@gim.ac.in"
 SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/sanchit-jain-63599217a/",
+    "Github" : "https://github.com/sanchit-jain08"
 }
 PROJECTS = {
     "► [Nifty 50 Analyzer](https://lnkd.in/gdC-6Aem)": "Created a SARIMA-powered forecasting dashboard using Python, DAX, and Yahoo Finance data to predict trends and enhance trading decisions through RSI, SMA, EMA, and MACD indicators.",
@@ -71,7 +72,7 @@ with col1:
         - ✔️ B.Tech in Information Technology & PGDM in Big Data Analytics
         - ✔️ Strong command of Power BI, SQL, Azure Data Factory, & Python 
         - ✔️ Delivered performance optimization, ETL automation, & reports  
-        - ✔️ Certificted with Microsoft in [Azure Fundamentals](https://drive.google.com/file/d/1LAbc9GChcDmwYzffNckcTzpvGU8GAJUl/view?usp=sharing) & [Data Fundamentals](https://drive.google.com/file/d/1EQN1WY9eaSCEYKAz8KDponwIP06ZeiDb/view?usp=sharing)
+        - ✔️ Microsoft Certificted - [Azure Fundamentals](https://drive.google.com/file/d/1LAbc9GChcDmwYzffNckcTzpvGU8GAJUl/view?usp=sharing) & [Data Fundamentals](https://drive.google.com/file/d/1EQN1WY9eaSCEYKAz8KDponwIP06ZeiDb/view?usp=sharing)
         """
     )
 # --- SKILLS ---
@@ -79,7 +80,7 @@ with col2:
     st.subheader("Hard Skills")
     st.write(
         """
-        - ► Programming: Python, SQL, PL/SQL, R, C# .NET
+        - ► Programming: Python, R, SQL, PL/SQL,C# .NET
         - ► Tools: Power BI, Tableau, Power Apps, Power Automate, Excel Macros
         - ► Cloud & ETL: Azure Data Factory, Azure SQL, Oracle Apex
         - ► Analytics: ADF tests, Market Basket Analysis, KPI dashboards
